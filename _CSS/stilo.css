@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(123, 97, 238)33%,rgb(240, 94, 94)66%, rgb(137, 238, 97)120%);
+}
+
+a{
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+}
+section{
+    display:block;
+    width: 33%;
+    float: left;
+    border-right: 1px solid #606060;
+    padding: 10px;
+}
+aside{
+    display: block;
+    width: 33%;
+    float: right;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+footer{
+    clear: both;
+    border-top: 1px solid #fff;
+}
