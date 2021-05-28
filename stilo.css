@@ -1,10 +1,17 @@
-
-
 body{
     width: 100%;
     background-image: linear-gradient(to right, rgb(123, 97, 238)33%,rgb(240, 94, 94)66%, rgb(137, 238, 97)120%);
 }
-
+h1{
+    text-indent: 50px;
+    text-align: justify;
+}
+input{
+    border-radius: 15px;
+    background-color: coral;
+    color: rgb(24, 22, 99);
+    font-size: 16pt;
+}
 a{
     color: rgba(0,0,0,0.5);
     text-decoration: none;
@@ -14,18 +21,26 @@ a:hover{
     text-decoration: underline;
 }
 
+strong{
+    color: #fff;
+}
 header{
+}
+section#centro{
+    display: block;
+    float: center;
+    width: 31%;
 }
 section{
     display:block;
-    width: 33%;
+    width: 31%;
     float: left;
     border-right: 1px solid #606060;
     padding: 10px;
 }
 aside{
     display: block;
-    width: 33%;
+    width: 31%;
     float: right;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     padding: 10px;
