@@ -80,3 +80,19 @@ function calcula20i() {
 function lim20i() {
     res20i.innerHTML = `&#x1f648 &#x1f649 &#x1f64a`
 }
+
+function show200all04() {
+    let tela = document.getElementById('res200all04')
+    let i = 1
+    tela.innerHTML =''
+    while (i <= 200){
+        if(i % 4 == 0){
+            tela.innerHTML +=`${i} &#x1f418`
+        }
+        i++
+    }
+}
+
+function clean200all04() {
+    res200all04.innerHTML = ` &#x1f4fd  &#x1f4fd   &#x1f4fd   &#x1f4fd`
+}
