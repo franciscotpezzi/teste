@@ -64,3 +64,19 @@ function som500p(){
 function limpa500p(){
     res500p.innerHTML=`&#129409  &#129409  &#129409  &#129409`
 }
+
+function calcula20i() {
+    let te = window.document.getElementById('res20i')
+    let n = 0
+    te.innerHTML=''
+    while (n <= 20){
+        if(n % 2 != 0){
+            te.innerHTML += `&#x1f98d ${n} `
+        }
+        n++
+    }
+}
+
+function lim20i() {
+    res20i.innerHTML = `&#x1f648 &#x1f649 &#x1f64a`
+}
