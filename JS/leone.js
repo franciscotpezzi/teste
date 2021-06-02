@@ -73,7 +73,7 @@ function fibonacci(){
 
     while( i <= 15){
         
-        tela.innerHTML +=` ${pro}`
+        tela.innerHTML +=` ${pro} &#x1f40c`
         pro = (atu + ant)
         atu = ant
         ant = pro
@@ -82,4 +82,42 @@ function fibonacci(){
 }
 function limpar(){
     tela.innerHTML=`&#x1f58c  &#x1f58c   &#x1f58c   &#x1f58c   &#x1f58c   &#x1f58c   &#x1f58c`
+}
+
+function transC_F(){
+    /*  let olha = window.document.getElementById('tela')*/
+      let c = 10
+      let f = 0
+      telC_F.innerHTML =''
+      while(c <= 100){
+          f = (c * 9 / 5) + 32
+          telC_F.innerHTML+=`</br><strong>${c}°C</strong> equivale à <strong>${f}°F</strong>`
+          c += 10
+      }
+  }
+  function limC_F(){
+      telC_F.innerHTML=`  &#x1f63c  &#x1f408  &#x1f63c `
+  }
+
+  
+function dobra(){
+    let i = 0;
+    let n = 2;
+    let d = 0;
+    let s = 0;
+    par.innerHTML = " "
+    while(i < 64){
+        d = n**i
+        par.innerHTML += `${d} &#x1f33e `
+        s += d
+        i++
+    }
+    par.innerHTML +=`<br/><strong>A totalização de grãos de trigo é ${s}</strong> &#x1f33e`
+    img.src = img.src="../imagens/xadres470.jpg "
+}
+
+function limDob_Som(){
+    par.innerHTML= ` &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b    &#x265b  &#x265b  &#x265b
+    &#x265b    &#x265b  &#x265b &#x265b &#x265b &#x265b    &#x265b    &#x265b    &#x265b    &#x265b `
+    img.src = img.src="../imagens/xadres470.jpg "
 }
